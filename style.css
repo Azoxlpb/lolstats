@@ -1,0 +1,138 @@
+/*entete de la page*/
+
+body{
+    margin: 0;
+    width :100%;
+    background-color: lightslategray;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(11, 117, 117);
+    align-items: center;
+    padding: 0;
+    height: 65px;
+}
+
+header form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+label{
+    display: none;
+}
+/*navbar */
+
+section#sec-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:  #333;
+}
+
+nav a{
+ text-decoration: none;
+ color : white;
+ width: 25%;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.navbar a:hover{
+   background-color : #111;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+/* main */
+
+#main{
+	display: flex;
+	justify-content: center;
+}
+
+#main>section {
+    align-items: center;
+    width: 100%;
+	background-color: white;
+	padding-bottom: 450px;
+}
+
+#banner{
+    background-image: url(img/noxus.jpg);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: lightslategray;
+    max-height: 150px;
+}
+
+.on-foot{
+    width : 20%;
+    height: 100%;
+}
+
+footer>section{
+	width: 80%;
+}
+
+footer .imgfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 75px;
+}
+
+
+
+footer button {
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 5px;
+    margin-right: 7px; 
+    background-color:  rgb(97, 97, 97) ;
+    color: white;
+    font-weight: 500;
+    height: 55px;
+}
+
+footer img{
+	max-width: 60px;
+}
+/* image */
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
