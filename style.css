@@ -22,9 +22,15 @@ header form{
     width: 100%;
 }
 
-label{
-    display: none;
+#champ{
+    width: 200px;
+    height: 20px;
 }
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
 /*navbar */
 
 section#sec-nav {
@@ -80,8 +86,16 @@ nav a{
     height: 600px;
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+    /* banniere*/
+#banner h1{
+    color: white;
+    font-weight: 500;
+}
+
 
 /*footer*/
 
@@ -93,6 +107,9 @@ footer{
     max-height: 150px;
 }
 
+footer h3{
+    margin-left: 25px;
+}
 .on-foot{
     width : 20%;
     height: 100%;
@@ -109,8 +126,6 @@ footer .imgfoot{
     margin-right: 75px;
 }
 
-
-
 footer button {
     max-width: 50px;
     display: flex;
@@ -119,7 +134,7 @@ footer button {
     text-align: left;
     padding-right: 70px;
     padding-left: 70px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-right: 7px; 
     background-color:  rgb(97, 97, 97) ;
     color: white;
